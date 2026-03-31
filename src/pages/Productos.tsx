@@ -15,10 +15,18 @@ const categories = [
   },
   {
     icon: Lightbulb,
-    slug: "iluminacion",
-    title: "Iluminación",
+    slug: "Lamparas",
+    title: "Lamparas",
     description: "Lámparas LED, reflectores, tubos y artefactos para todo tipo de espacios.",
     items: ["Lámparas LED de bajo consumo", "Reflectores LED para exterior", "Tubos LED T8", "Artefactos de iluminación", "Dicroicas y spots", "Tiras LED y fuentes"],
+    color: "bg-primary/10 text-primary",
+  },
+  {
+    icon: Lightbulb,
+    slug: "Iluminación",
+    title: "Iluminación",
+    description: "Embutir, Semi Embutir, Iluminación de Techo, Iluminación de Pared, Iluminación de Exterior, Accesorios de Iluminación",
+    items: ["Embutir, Semi Embutir", "Iluminación de Techo", "Iluminación de Pared", "Iluminación de Exterior", "Accesorios de Iluminación"],
     color: "bg-primary/10 text-primary",
   },
   {
@@ -35,6 +43,14 @@ const categories = [
     title: "Herramientas",
     description: "Herramientas e insumos profesionales para electricistas.",
     items: ["Pinzas aisladas", "Destornilladores buscapolo", "Cintas aisladora y vulcanizante", "Multímetros", "Pelacables", "Insumos complementarios"],
+    color: "bg-primary/10 text-primary",
+  },
+  {
+    icon: Cable,
+    slug: "llave-de-luz",
+    title: "Llaves de Luz",
+    description: "Jeluz, Sica, Cambre",
+    items: ["Jeluz Mito", "Jeluz Verona", "Jeluz Platinum", "Jeluz Regina", "Sica Life", "Cambre XXI", "Cambre XXII", "Cambre Bauhaus", "Cambre Arte"],
     color: "bg-primary/10 text-primary",
   },
 ];
